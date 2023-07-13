@@ -1,0 +1,233 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+  * {
+      font-family: 'Ubuntu';
+  }
+
+  body {
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  header {
+      width: 100%;
+      height: 50px;
+      background-color: #1f2937;
+      display: flex;
+      align-items: center;
+  }
+
+  .headerLinks {
+      position: absolute;
+      display: flex;
+      gap: 10px;
+      justify-self: flex-end !important;
+      right: 10%;
+  }
+
+  .headerLogo {
+      position: absolute;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Ubuntu';
+      font-weight: 600;
+      color: #f9faf8;
+      width: 150px;
+      left: 10%;
+  }
+
+  a {
+      color: #e4e7eb;
+  }
+
+  .headerLink {
+      text-align: center;
+      flex: 1;
+      font-size: 21px;
+      width: 150px;
+      font-family: 'Ubuntu';
+      font-size: 18px;
+  }
+
+  .hero {
+      background-color: #1f2937;
+      display: flex;
+      font-family: 'Ubuntu';
+      flex-direction: row;
+      justify-content: center;
+      padding: 3% 12%;
+  }
+
+
+  .awesomeText {
+      flex: 1;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+  }
+
+
+  h3 {
+      color: #f9faf8;
+      font-weight: 600;
+      font-size: 48px;
+      flex: 1;
+      margin: 10px 15% 10px 10px;
+
+  }
+
+
+  .awesomeText p {
+      margin: 0;
+      color: #e4e7eb;
+      font-weight: 100;
+      font-size: 18px;
+      flex: 1;
+      margin: 10px 10px 20px 10px;
+
+  }
+
+  button {
+      background-color: #3882f6;
+      color: #f9faf8;
+      font-family: 'Ubuntu';
+      font-weight: 600;
+      font-size: 20px;
+      align-self: flex-start;
+      border-radius: 10px;
+      border: 0px;
+      height: 40px;
+      width: 31%;
+  }
+
+  .imgPlaceholder {
+      flex: 1;
+      background-color: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .randomInfo {
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      padding: 3% 12%;
+      justify-content: center;
+  }
+
+  .someRandomInfoTitle {
+      align-self: center;
+      margin-bottom: 5%;
+      color: #1f2937;
+      font-size: 36px;
+      font-weight: 600;
+  }
+
+  .itemContainer {
+      display: flex;
+      justify-content: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      gap: 7%;
+  }
+
+  .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2%;
+  }
+
+  .rectangle {
+      border: 4px solid #3882f6;
+      flex: 60%;
+      border-radius: 10%;
+      align-self: center;
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+  }
+
+  .subText {
+      flex: 40%;
+      font-size: 18px;
+      text-align: center;
+  }
+
+  .quote {
+      padding: 7% 12%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e5e7eb;
+  }
+
+  .quoteContainer {
+      height: 80%;
+      flex: 1;
+
+  }
+
+  .quoteContainer p {
+      font-size: 36px;
+      font-style: italic;
+      font-weight: lighter;
+      flex: 1;
+  }
+
+  .quoteContainer .Thor {
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: right;
+  }
+
+  .signUp {
+      display: flex;
+      padding: 5% 12%
+  }
+
+  .signUpRectangle {
+      color: #f9faf8;
+      border: 0px solid;
+      background-color: #3882f6;
+      border-radius: 20px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 4%;
+      padding: 5% 8%;
+  }
+
+  .signUpRectangle button {
+      border: 2px solid #f9faf8;
+      align-self: center;
+      flex: 20%;
+  }
+
+
+  .text {
+      flex: 1;
+      flex: 80%;
+  }
+
+  h5 {
+      font-size: 22px;
+      margin: 0px;
+  }
+
+  .signUpRectangle p {
+      font-size: 18px;
+  }
+
+  footer {
+      background-color: #1f2937;
+      color: #e4e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+  }
