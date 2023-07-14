@@ -98,7 +98,7 @@
       align-self: flex-start;
       border-radius: 10px;
       border: 0px;
-      height: 40px;
+      height: auto;
       width: 31%;
   }
 
